@@ -22,3 +22,7 @@ SELECT * FROM tb_colaborador WHERE salario < 2000;
 
 ALTER TABLE tb_colaborador
 	ADD pronomes VARCHAR(50);
+
+UPDATE tb_colaborador 
+	SET pronomes = "ela/dela"
+    WHERE id = 5;
